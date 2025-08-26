@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'pocoyo';
+    src: url("fontes/pocoyo-tv.ttf") format("truetype");
+}
+
+html {
+    background-color:#000000;
+}
+body {
+  background-color: #87D6FF;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #009EF0, #52C4FF);
+    margin: auto;
+}
+
+header > nav:active{
+    text-align: left;
+}
+nav > a {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav > a:hover {
+    background-color: #87D6FF;
+    color: #005A89;
+    padding: 3px;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+}
+#principal {
+    font-family: pocoyo;
+    text-align: center;
+}
+.auxiliar {
+    text-align: center;
+}
+a {
+    text-decoration: underline;
+    color:#FFFFFF;
+    text-align: left;
+}
+a.externos::after {
+    content: '\00A0\1F517';
+}
+.tamanhodeh1 {
+    font-size: 35px;
+    text-align: center;
+}
+main {
+    background-color: #FFFFFF;
+    padding: 30px;
+    min-width: 320px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0px 0px 10px #00000054;
+}
+.centralizarparagrafofinal {
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+}
+.imagemprincipal {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    
+}
+.img2 {
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+}
+#pocoyo {
+    background-color: #005A89;
+    padding: 5px;
+    border-radius: 5px;
+    border: 15px solid #003450;
+}
+.pocoyoh {
+    text-align: center;
+    color: #009EF0;
+}
+.pcenter {
+    text-align: center;
+    color: #FFFFFF;
+}
+#oculos {
+    text-align: center;
+    color:#009EF0;
+}
+#pato {
+    background-color: #F0CA00;
+    padding: 5px;
+    border-radius: 5px;
+    border: 15px solid #C7A700;
+    margin: 15px 0px 0px 0px;
+}
+.patoh {
+    text-align: center;
+    color:  #9C8B31;
+}
+#patoimg2 {
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+}
+#elly {
+    background-color: #DD00A7;
+    padding: 5px;
+    border-radius:5px;
+    border: 15px solid #A1007A;
+    margin: 15px 0px 40px 0px;
+}
+#ellyprincipal {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+#ellysecundaria {
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+}
+.ellyh {
+    text-align: center;
+    color: #690050;
+}
+#linkelly {
+    color: #690050;
+    text-decoration: none;
+    font-weight: bold;
+}
+#linkelly:hover {
+    background-color: #FF6CDC;
+    color: #690050;
+    text-decoration: underline;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+    padding: 3px;
+    border-radius: 5px;
+}
+#linkpato {
+    color:  #9C8B31;
+    text-decoration: none;
+    font-weight: bold;
+}
+#linkpato:hover {
+    background-color: #F9DF57;
+    color: #9C8B31;
+    text-decoration: underline;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+    padding: 3px;
+    border-radius: 5px;
+}
+#linkpocoyo {
+    color: #009EF0;
+    text-decoration: none;
+    font-weight: bold;
+}
+#linkpocoyo:hover {
+    background-color: #52C4FF;
+    color: #009EF0;
+    text-decoration: underline;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+    padding: 3px;
+    border-radius: 5px;
+}
+#maispersonagem {
+    padding: 0;
+    border-radius: 3px;
+    background-color: #009EF0;
+    border: 15px solid #005987;
+    box-shadow: 0px 0px 5px #0000005E;
+}
+#maispersonagem > p {
+    color: white;
+}
+#maispersonagem > aside > p {
+    color: white;
+}
+#maispersonagem > h2 {
+    color: white;
+}
+ul {
+    list-style: none;
+    margin: auto 0;
+    padding: 0px;
+    text-align: center;
+    font-family: pocoyo;
+    columns: 2;
+}
+footer {
+    text-align: center;
+}
+.pcentercom45 {
+    text-align: center;
+    color: #000000; 
+}
+p {
+    line-height: 25px;
+}
+.h2semficha:hover {
+    background-image: linear-gradient(to right, #009EF0, #52C4FF, transparent);
+    padding: 3px;
+    transition-duration: 0.5s;
+    border-radius: 3px;
+}

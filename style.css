@@ -1,8 +1,13 @@
+
 @charset "UTF-8";
 
 @font-face {
     font-family: 'pocoyo';
     src: url("fontes/pocoyo-tv.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
 }
 
 html {
@@ -13,16 +18,27 @@ body {
   margin: 0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
 header {
-    padding: 20px;
-    background-image: linear-gradient(to bottom, #009EF0, #52C4FF);
-    margin: auto;
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-image: linear-gradient(to
+    bottom, #009EF0, #52C4FF);
 }
 
 header > nav:active{
     text-align: left;
 }
 nav > a {
+    display: inline-block;
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
@@ -195,7 +211,6 @@ ul {
     padding: 0px;
     text-align: center;
     font-family: pocoyo;
-    columns: 2;
 }
 footer {
     text-align: center;
